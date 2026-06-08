@@ -4,6 +4,8 @@ body{
     justify-content: center;
     align-items: center;
     height: 100vh;
+    background-color: hsl(0, 0%, 95%);
+    background: linear-gradient(190deg,rgba(111, 66, 193, 1) 0%, rgba(0, 0, 0, 1) 85%)
 }
 #calculadora{
     font-family: Arial, Helvetica, sans-serif;
@@ -40,4 +42,21 @@ button{
     grid-template-columns: repeat(4, 1fr);
     gap: 10px;
     padding: 25px;
+}
+
+button:hover{
+    background-color: #4A4A4A;
+}
+button:active{
+    background-color: #5A5A5A;
+}
+
+.acao{
+    background-color: #6f42c1;
+}
+.acao:hover{
+    background-color: hsl(261, 51%, 55%);
+}
+.acao:active{
+    background-color: hsl(261, 51%, 60%);
 }

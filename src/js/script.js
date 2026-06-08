@@ -14,7 +14,7 @@ function calcular(){
     try{
     visor.value = eval(visor.value)
     }
-    catch{
+    catch(error){
         visor.value = 'Erro'
     }
 }
